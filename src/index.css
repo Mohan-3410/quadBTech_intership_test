@@ -152,6 +152,8 @@ code {
 
 .detail-info {
   text-align: left;
+  padding: 20px;
+  
 }
 
 .summary-container {
@@ -171,7 +173,6 @@ code {
 
 /* booking form */
 
-/* styles.css */
 /* ... Previous styles ... */
 
 .booking-form-container {
