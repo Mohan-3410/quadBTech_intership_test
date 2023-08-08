@@ -31,7 +31,10 @@ function BookingForm() {
   };
 
   return (
+    <React.Fragment>
+    <h1 className="page-header">QuadB Tech</h1>
     <div className="booking-form-container">
+    
       <div className="movie-details">
         <div className="movie-image">
           {/* Replace 'movieImageURL' with the actual URL of the movie image */}
@@ -83,7 +86,7 @@ function BookingForm() {
         </form>
       </div>
     </div>
-  );
+    </React.Fragment>);
 }
 
 export default BookingForm;
